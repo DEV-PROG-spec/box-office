@@ -1,8 +1,9 @@
-import styled from "styled-components";
-import { SearchCard } from "../Styled";
+import styled from 'styled-components';
+
+import { SearchCard } from '../Styled';
 
 export const StyledShowCard = styled(SearchCard)`
-.btns {
+  .btns {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -29,4 +30,4 @@ export const StyledShowCard = styled(SearchCard)`
       }
     }
   }
-`
+`;
